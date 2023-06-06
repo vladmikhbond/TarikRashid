@@ -1,0 +1,5 @@
+myenv/
+mnist_dataset/
+src/__pycache__/
+*.npy
+
