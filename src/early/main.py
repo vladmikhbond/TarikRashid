@@ -1,13 +1,16 @@
+import sys 
+sys.path.append('c:\\Git\\PY\\TarikRashid\\src\\lib')
+
 import numpy as np
 import time
 
 from neural_network import neural_network
-from utils import load_data, show_digit, show_err_history
 
-X = np.load('X.npy')
-Y = np.load('Y.npy')
-Xt = np.load('Xt.npy')
-Yt = np.load('Yt.npy')
+
+X = np.load('.\\mnist_dataset\\X.npy')
+Y = np.load('.\\mnist_dataset\\Y.npy')
+Xt = np.load('.\\mnist_dataset\\Xt.npy')
+Yt = np.load('.\\mnist_dataset\\Yt.npy')
 
 start = time.time() ######
 
